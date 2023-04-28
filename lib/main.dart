@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import 'package:appcook/data/dummy_data.dart';
 import 'package:appcook/screens/categories_meals_screen.dart';
 import 'package:appcook/screens/meal_details_screen.dart';
@@ -50,11 +51,19 @@ class _MyAppState extends State<MyApp> {
     return _favoriteMeals.contains(meal);
   }
 
+=======
+import 'package:flutter/material.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+>>>>>>> 0a83e015022b9a720fbbba2382477309473d51fa
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'DeliMeals',
       theme: ThemeData(
+<<<<<<< HEAD
           primarySwatch: Colors.pink,
           secondaryHeaderColor: Colors.amber,
           fontFamily: 'Raleway',
@@ -89,6 +98,30 @@ class _MyAppState extends State<MyApp> {
       //     return CategoriesScreen();
       //    });
       //   },
+=======
+        primarySwatch: Colors.blue,
+      ),
+      home: MyHomePage(),
+    );
+  }
+}
+
+class MyHomePage extends StatefulWidget {
+  @override
+  _MyHomePageState createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('DeliMeals'),
+      ),
+      body: Center(
+        child: Text('Navegar é preciso!!'),
+      ),
+>>>>>>> 0a83e015022b9a720fbbba2382477309473d51fa
     );
   }
 }

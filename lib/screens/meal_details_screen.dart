@@ -94,7 +94,7 @@ class MealDetailScreen extends StatelessWidget {
         backgroundColor: Theme.of(context).secondaryHeaderColor,
         child: Icon(isFavorite(meal) ? Icons.star : Icons.star_border),
         onPressed: () {
-          onToggleFavorite(meal);
+          onToggleFavorite(meal);//////
         },
       ),
     );

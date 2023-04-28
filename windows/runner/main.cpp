@@ -27,11 +27,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
   FlutterWindow window(project);
   Win32Window::Point origin(10, 10);
   Win32Window::Size size(1280, 720);
-<<<<<<< HEAD
   if (!window.Create(L"appcook", origin, size)) {
-=======
-  if (!window.Create(L"cookapp", origin, size)) {
->>>>>>> 0a83e015022b9a720fbbba2382477309473d51fa
     return EXIT_FAILURE;
   }
   window.SetQuitOnClose(true);

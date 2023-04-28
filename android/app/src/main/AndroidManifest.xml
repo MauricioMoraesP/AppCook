@@ -1,10 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-<<<<<<< HEAD
         android:label="appcook"
-=======
-        android:label="cookapp"
->>>>>>> 0a83e015022b9a720fbbba2382477309473d51fa
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

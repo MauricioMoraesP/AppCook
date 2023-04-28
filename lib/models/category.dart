@@ -10,8 +10,4 @@ class Category {
     required this.title,
     this.color = Colors.orange,
   });
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 0a83e015022b9a720fbbba2382477309473d51fa

@@ -90,21 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-<<<<<<< HEAD
             VALUE "FileDescription", "appcook" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "appcook" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
             VALUE "OriginalFilename", "appcook.exe" "\0"
             VALUE "ProductName", "appcook" "\0"
-=======
-            VALUE "FileDescription", "cookapp" "\0"
-            VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "cookapp" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "cookapp.exe" "\0"
-            VALUE "ProductName", "cookapp" "\0"
->>>>>>> 0a83e015022b9a720fbbba2382477309473d51fa
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

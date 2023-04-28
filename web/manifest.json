@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
     "name": "appcook",
     "short_name": "appcook",
-=======
-    "name": "cookapp",
-    "short_name": "cookapp",
->>>>>>> 0a83e015022b9a720fbbba2382477309473d51fa
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

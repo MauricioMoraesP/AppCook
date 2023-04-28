@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # appcook
-=======
-# cookapp
->>>>>>> 0a83e015022b9a720fbbba2382477309473d51fa
 
 A new Flutter project.
 

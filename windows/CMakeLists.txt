@@ -1,18 +1,10 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
-<<<<<<< HEAD
 project(appcook LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
 set(BINARY_NAME "appcook")
-=======
-project(cookapp LANGUAGES CXX)
-
-# The name of the executable created for the application. Change this to change
-# the on-disk name of your application.
-set(BINARY_NAME "cookapp")
->>>>>>> 0a83e015022b9a720fbbba2382477309473d51fa
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.
